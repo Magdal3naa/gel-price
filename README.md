@@ -6,10 +6,10 @@ This repository contains a simple HTML and JavaScript code that displays the cur
 
 1. Clone or download this repository to your local machine.
 
-2. Open the `index.html` file in a web browser to see it in action.
+2. Open the `gel-price.html` file in a web browser to see it in action.
 
 3. To customize or integrate the widget into your own website or project, follow these steps:
-    - Include the HTML code from `index.html` in your desired webpage.
+    - Include the HTML code from `gel-price.html` in your desired webpage.
     - Include the JavaScript code from `index2.js` in your JavaScript file.
     - Make sure to include the necessary CSS styles from the `<style>` section in your stylesheet or HTML.
 
