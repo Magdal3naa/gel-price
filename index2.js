@@ -2,7 +2,7 @@ async function getPrice() {
     try {
       const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=gelato&vs_currencies=usd');
       const data = await response.json();
-      const price = data.gelato.usd;
+      const price = data.gelato.usd.toFixed(3); // Limit to 3 digits
       const resultElement = document.getElementById('result');
       resultElement.textContent = `The price of $GEL is: $${price}`;
   
