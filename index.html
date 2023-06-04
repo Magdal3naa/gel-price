@@ -3,10 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The price right now is:</title>
+  <title>The $GEL price right now is:</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #202020, #fb8b8c); /* Apply the gradient color */
+      color: white;
+    }
+
+    #container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin-bottom: 10px;
+    }
+
+    #result {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    #info {
+      font-size: 24px;
+      color: #fb8b8c;
+    }
+
+    #logo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+  </style>
 </head>
 <body>
-  <div id="result"></div>
+  <div id="container">
+    <h1>Gelato</h1>
+    <img src="https://www.gelato.network/brand-assets/Gelato_Logos/Mark/Gelato%20brand%20mark%20(for%20dark%20background).svg" alt="Logo" id="logo">
+    <div id="result"></div>
+    <div id="info"></div>
+  </div>
   <script src="index2.js"></script>
 </body>
 </html>
