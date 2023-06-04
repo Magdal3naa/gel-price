@@ -20,6 +20,6 @@ async function getPrice() {
   // Call the getPrice function immediately
   getPrice();
   
-  // Update the price every 60 seconds
-  setInterval(getPrice, 60000);
+  // Update the price every 15 seconds
+  setInterval(getPrice, 15000);
   
