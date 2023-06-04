@@ -1,6 +1,6 @@
 # # Gelato Price Widget
 
-This repository contains a simple HTML and JavaScript code that displays the current price of $GEL. The price is fetched from the CoinGecko API and updates it every 60 seconds. Additionally, it provides instructions for creating a macOS widget using Automator.
+This repository contains a simple HTML and JavaScript code that displays the current price of $GEL. The price is fetched from the CoinGecko API and updates it every 15 seconds. Additionally, it provides instructions for creating a macOS widget using Automator.
 
 ## How to Use
 
